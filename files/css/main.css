@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Bubbles');
+@import url('https://fonts.googleapis.com/css?family=Silkscreen');
+
+body {
+  font-family: 'Rubik Bubbles', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #272727;
+  color: #e3e3e3;
+}
+
+/* idk, main content i guess? */
+#mmmfart {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+#mmmfart img {
+  width: 90%;
+  max-width: 40vh;
+}
+
+
+/* footer */
+#mmmfeet {
+  font-family:  Silkscreen, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+  text-align: center;
+}
+
+#mmmfeet a, #mmmfeet a:visited {
+  color: #a0d7ff;
+}
