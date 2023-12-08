@@ -7,6 +7,17 @@ body {
   color: #e3e3e3;
 }
 
+@keyframes rainbowtext {
+  from {
+    filter: hue-rotate(0deg);
+    background-position-x: 0%;
+  }
+  to {
+    filter: hue-rotate(360deg);
+    background-position-x: 600vw;
+  }
+}
+
 /* idk, main content i guess? */
 #mmmfart {
   margin: auto;
@@ -19,10 +30,20 @@ body {
   max-width: 40vh;
 }
 
+#mmmfart h1 {
+  background: linear-gradient(45deg, #de5e5e, #d65feb);
+  background: -webkit-linear-gradient(45deg, #de5e5e, #d65feb);
+  background-size: 600vw 600vw;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbowtext 2s linear infinite alternate;
+}
 
 /* footer */
 #mmmfeet {
-  font-family:  Silkscreen, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Silkscreen, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	position: fixed;
 	left: 0;
 	bottom: 0;
